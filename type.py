@@ -1,14 +1,8 @@
 
+import re
 
-def hello(s: int) -> int:
-    if s > 10:
-        return "10"
-    else:
-        return s
+pattern = re.compile(r"^(\d+)x(\d+)(?:\+(\d+))?(?:\+(\d+))?$")
 
-def main():
-    s = 12
-    print(hello(s))
-
-if __name__ == "__main__":
-    main()
+test = "700x400+400+200"
+m = pattern.match(test)
+print(m.groups())
