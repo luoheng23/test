@@ -3436,3 +3436,6 @@ array_set(&/*q*/ arr , n , & (byte []) {  '\0' }) ;
 return  (tos((byte *) arr .data ,  n ) ) ;
  
  }
+ int main(int argc, char** argv) {
+ init_consts();
+ 
