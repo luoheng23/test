@@ -1,5 +1,3 @@
-fn main() {
-    if !0 && 3 {
-        println('hello world')
-    }
+if !0 {
+    print('hello wrold')
 }
