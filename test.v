@@ -1,3 +1,3 @@
-if !0 {
-    print('hello wrold')
+if !0 <= 1 {
+    println('hello world')
 }
