@@ -1,3 +1,3 @@
-if !0 <= 1 {
-    println('hello world')
-}
+mut m := map[string]fn() int
+m['key'] = fn() int {return 1}
+println("hello world")
