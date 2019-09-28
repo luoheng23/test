@@ -1,3 +1,30 @@
-hello world this is your time
-big mistake is happened
-you are wrong
+type: int
+type: string
+type: string
+type: string
+int
+type: int
+type: string
+byte
+byte
+byte
+byte
+byte
+byte
+type: byte
+type: byte
+byte
+type: byte
+int
+int
+byte
+type: byte
+string
+type: string
+int
+type: int
+byte
+type: byte
+int
+get_type() bad type
+F:\luoheng\Documents\GitHub\test\hello.v:5:3: unknown type `a`
