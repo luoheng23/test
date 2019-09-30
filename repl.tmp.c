@@ -3668,5 +3668,7 @@ return  (tos((byte *) arr .data ,  n ) ) ;
  }
  void main__main() {
  
-int a  [1 ] ;
+string msg= tos2((byte*)"ola") ;
+ 
+int v= 2 ;
  

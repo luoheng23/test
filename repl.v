@@ -1,6 +1,5 @@
-
 fn main() {
-	mut a:=[1]int
-	a<<4
-	println(a)
+	mut msg := "ola"
+	v := 2
+	println("hello $v")
 }
