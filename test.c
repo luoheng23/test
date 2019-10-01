@@ -1,25 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <wchar.h>
-#include <string.h>
-int main()
+int main(int argc, char *argv[])
 {
-    wchar_t *s = (wchar_t *)(malloc(100));
-    printf("length: %d\n", (int)fgetws(s, 100, stdin));
-    printf("str: %s\n", s);
-    if (s[wcslen(s) - 1] == '\n')
+    for (int i = 0; i < 10; i++)
     {
-        printf("strange\n");
-    }
-    printf("%d %c %c\n", wcslen(s), s[wcslen(s) - 1], s[wcslen(s) - 2]);
-    if (s[wcslen(s) - 2] == '\r')
-    {
-        printf("more strange\n");
-    }
-    fgetws(s, 100, stdin);
-    if (s[0] == '\n')
-    {
-        printf("boom");
+        if (i == 2)
+        {
+            printf("%p\n", &i);
+        }
+        printf("%d\n", i + 1);
     }
     return 0;
 }
