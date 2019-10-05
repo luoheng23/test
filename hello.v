@@ -1,14 +1,6 @@
 
 s := "h"
-s2 := "
-gdsfsdfs
-fds
-fsdf
-sd
-fsd
-fsad
-f
-"
+s2 := "hello $s'
 
 print(s2)
 
