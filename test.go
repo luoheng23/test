@@ -1,5 +1,8 @@
 package main
 
+import "strconv"
+
 func main() {
-	println("hello world")
+	t, _ := strconv.Atoi("-2")
+	print(t)
 }
