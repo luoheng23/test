@@ -1,7 +1,8 @@
 package main
 
-var _ hello = 10
+import "llvm.org/llvm/bindings/go/llvm"
 
 func main() {
-	print(hello)
+	t := llvm.CodeModelDefault
+	print("hello world", t)
 }
