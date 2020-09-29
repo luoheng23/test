@@ -1,5 +1,11 @@
+
 fn main() {
-	mut msg := "ola"
-	v := 2
-	println("hello $v")
+	msg := 30
+
+	fn () {
+		msg := 20
+		print(msg)
+	}()
+	print(msg)
+	hello()
 }

@@ -1,9 +1,2 @@
-b = '''
-testinput1
-testinput2
-testinput3
-'''
-a = '''{b}'''.format(b=b)
+a = 1 < 2 < 3 > 4
 print(a)
-out = a.replace("\n", "\\n")
-print(out)
