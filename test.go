@@ -1,5 +1,7 @@
 package main
-func main(){
-	var a = 4 << 1 << 2
-	println(a)
+
+func main() {
+	t := ^uint(0)
+	t += 1
+	println(t)
 }

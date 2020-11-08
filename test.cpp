@@ -1,7 +1,8 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "hello world!" << std::endl;
-    return 0;
+    const int &p = 5;
+    cout << p << endl;
 }
