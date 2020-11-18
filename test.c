@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-int main() {
-  unsigned char a = 254;
-  if ((unsigned char)-1 > a) {
-    printf("%d\n", a);
+int main()
+{
+  int a = 20;
+  char *c = (char *)&a;
+  for (int i = 0; i < 4; ++i)
+  {
+    printf("value: %d\n", (int)c[i]);
   }
-  printf("%d %d\n", a, (unsigned char)-1);
+  return 0;
 }
