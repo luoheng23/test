@@ -2,16 +2,10 @@
 
 int main()
 {
-  printf("EOF %d\n", EOF);
-  int a = 20;
-  printf("??!\n");
-  char *c = (char *)&a;
-  char *message;
-  message = "Hello world";
-  printf("%s\n", message);
-  for (int i = 0; i < 4; ++i)
+  int vector[5] = {};
+  for (int i = 0; i < 5; ++i)
   {
-    printf("value: %d\n", (int)c[i]);
+    printf("value: %d\n", vector[i]);
   }
   return 0;
 }
