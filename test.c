@@ -2,7 +2,6 @@
 
 int main()
 {
-  char a[] = "Hello world";
-  printf("%d\n", sizeof a);
-  return 0;
+  int lval = 0xFEDCBA98 << 32;
+  printf("%d\n", lval);
 }
