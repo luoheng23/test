@@ -1,22 +1,15 @@
 class hello {
 }
 
-extension hello {
-    class func a() -> Int {
-        return 40
+while true {
+    let i = 20
+    switch i {
+    case 0...:
+        print("Hello")
+        break
+    default:
+        print("Hello good")
     }
 }
 
-extension hello {
-    var a: Int { return type(of: self).a() - 20 }
-}
-
-extension hello {
-    func story() {
-        print(a)
-        print(type(of: self).a())
-    }
-}
-
-
-print(hello().story())
+print("Out")

@@ -1,7 +1,16 @@
 package main
 
 func main() {
-	t := ^uint(0)
-	t += 1
-	println(t)
+	for {
+		i := 10
+		switch i {
+		case 10:
+			println("Why not break")
+			break
+		case 20:
+			println("Good")
+		}
+	}
+
+	println("Hello world")
 }
