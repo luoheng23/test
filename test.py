@@ -1,4 +1,5 @@
+from matplotlib import pyplot as plt
 
-def readCol(filename):
-    with open(filename) as f:
-        return [line.strip().split()[-1] for line in f]
+plt.plot([0, 1, 2, 3], [4, 5, 6, 7])
+plt.show()
+
